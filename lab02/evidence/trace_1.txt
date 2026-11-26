@@ -1,0 +1,27 @@
+# Trace 1 – Budget Calculation
+
+**Question:**
+
+I have GHS 1,200. I want 4 bags of rice at GHS 185 each and 3 gallons of oil at GHS 95 each. How much money will I have left?
+
+**Agent Trace:**
+
+Thought: I need to calculate the total cost of the rice and oil, and then subtract it from the initial amount of GHS 1,200.
+
+Action: calculator
+
+Action Input: 1200 - (4 * 185 + 3 * 95)
+
+Observation: 175
+
+Thought: I have calculated the remaining money to be GHS 175. I am ready to give the final answer.
+
+Action: finish
+
+Action Input: You will have GHS 175 left.
+
+**Final Answer:** You will have GHS 175 left.
+
+**Result:** PASS
+
+**Observation:** The agent correctly used the calculator tool, received the result, and selected the finish action to provide the correct answer.

@@ -1,0 +1,22 @@
+# Trace 2 – Using Both Tools
+
+**Question:**
+
+Find information about the University of Ghana using Wikipedia. Then calculate the total cost of 4 bags of rice at GHS 185 each and 3 gallons of oil at GHS 95 each.
+
+**Tools Used:**
+- wiki_lookup
+- calculator
+
+**Observations:**
+
+1. Wikipedia returned: The University of Ghana is a public university located in Accra, Ghana. It is the oldest public university in the country.
+2. Calculator returned: 1025.
+
+**Final Answer:**
+
+The University of Ghana is a public university located in Accra, Ghana, and is the oldest public university in the country. The total cost of the items is GHS 1025.
+
+**Result:** PASS
+
+**Additional Observation:** The model produced some responses in an invalid format. The agent handled these errors and continued until it successfully completed the task using both tools.

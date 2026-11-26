@@ -1,0 +1,31 @@
+# Trace 4 – Question Requiring No External Tool
+
+**Question:**
+
+What is an intelligent agent in artificial intelligence?
+
+**Expected Behaviour:**
+
+The agent should provide a definition directly using its existing knowledge and select the finish action without calling an external tool.
+
+**Actual Action:**
+
+wiki_lookup
+
+**Action Input:**
+
+Intelligent agent
+
+**Observation:**
+
+An intelligent agent is an entity that perceives its environment, takes actions autonomously to achieve goals, and may improve its performance through acquiring knowledge.
+
+**Actual Result:**
+
+The agent unnecessarily selected Wikipedia instead of answering directly. It retrieved a relevant definition, but Gemini experienced a temporary 503 service error before completing the response.
+
+**Result:** PARTIAL PASS
+
+**Lesson:**
+
+An intelligent agent should select tools only when necessary. Using external tools for every question can introduce unnecessary delays and API dependency.

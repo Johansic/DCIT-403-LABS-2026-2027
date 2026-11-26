@@ -1,0 +1,23 @@
+# Trace 6 – Unknown Action Handling
+
+**Test:**
+
+Attempt to execute an unsupported action called `send_email`.
+
+**Python Command:**
+
+execute_action('send_email', 'Send a message')
+
+**Expected Behaviour:**
+
+The agent should reject the unknown action and return an error message without crashing.
+
+**Actual Output:**
+
+Error: Unknown action 'send_email'
+
+**Result:** PASS
+
+**Lesson:**
+
+An intelligent agent should validate its selected actions before execution. This improves reliability and prevents unsupported actions from being executed.

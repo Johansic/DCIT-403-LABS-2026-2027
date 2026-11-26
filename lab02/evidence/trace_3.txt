@@ -1,0 +1,31 @@
+# Trace 3 – Nonexistent Wikipedia Page
+
+**Question:**
+
+Find information about the fictional country called Zorvonia using Wikipedia.
+
+**Action:**
+
+wiki_lookup
+
+**Action Input:**
+
+Zorvonia
+
+**Observation:**
+
+No Wikipedia article found for this topic.
+
+**Expected Final Response:**
+
+I could not find a Wikipedia article for Zorvonia, so I cannot provide verified information about it.
+
+**Actual Result:**
+
+The Wikipedia tool correctly returned a message indicating that no article was found. However, Gemini repeatedly produced invalid response formats and eventually experienced a temporary 503 service availability error.
+
+**Result:** PARTIAL PASS
+
+**Lesson:**
+
+The tool handled the missing page safely without crashing. However, the agent needs more robust handling of invalid model responses and temporary API failures.

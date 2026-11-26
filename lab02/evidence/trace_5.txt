@@ -1,0 +1,35 @@
+# Trace 5 – Poorly Worded Question
+
+**Question:**
+
+rice money 1200 four 185 oil three 95 left?
+
+**Agent Thought:**
+
+Calculate total expenses: 4 * 185 + 3 * 95.
+
+**Action:**
+
+calculator
+
+**Action Input:**
+
+4 * 185 + 3 * 95
+
+**Observation:**
+
+1025
+
+**Actual Result:**
+
+The agent correctly interpreted the poorly worded question and calculated the total expenses as GHS 1,025. However, Gemini experienced a temporary 503 service error before the agent could calculate the remaining balance.
+
+**Expected Remaining Balance:**
+
+GHS 175.
+
+**Result:** PARTIAL PASS
+
+**Lesson:**
+
+The agent demonstrated some ability to understand incomplete natural-language questions and convert them into mathematical expressions. However, temporary model unavailability prevented task completion.
