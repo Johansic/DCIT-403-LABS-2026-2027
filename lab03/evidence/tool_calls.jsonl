@@ -1,0 +1,4 @@
+{"timestamp":"2026-11-27 08:40:42","tool":"record_sale","arguments":{"item":"Amoxicillin","strength":"500mg","quantity":-5},"result":{"success":false,"message":"Quantity must be greater than zero."}}
+{"timestamp":"2026-11-27 08:43:02","tool":"record_sale","arguments":{"item":"Amoxicillin","strength":"500mg","quantity":50},"result":{"success":false,"message":"Insufficient stock. Only 40 available."}}
+{"timestamp":"2026-11-27 08:44:17","tool":"record_sale","arguments":{"item":"Amoxicillin","strength":"500mg","quantity":5},"result":{"success":true,"quantity_sold":5,"remaining_stock":35}}
+{"timestamp":"2026-11-27 08:50:49","tool":"record_sale","arguments":{"item":"Amoxicillin","strength":"500mg","quantity":2},"result":{"success":true,"quantity_sold":2,"remaining_stock":33},"human_approval":"yes"}
